@@ -32,3 +32,6 @@ buffer.append('c')
 print(buffer.get()) #gives me ['a', 'b', 'c']
 buffer.append('d')
 print(buffer.get()) #prints ['d', 'b', 'c']
+buffer.append('e')
+buffer.append('f')
+print(buffer.get()) #prints ['d', 'e', 'f']
